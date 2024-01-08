@@ -1,0 +1,49 @@
+/* LoanForm.css */
+.loan-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Feedback Box Styling */
+.feedback-box {
+  margin-bottom: 15px;
+}
+
+.feedback-box label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.feedback-box input {
+  width: calc(100% - 20px);
+  margin-right: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Styling for the range input */
+.feedback-box input[type="range"] {
+  width: 100%;
+}
+
+/* Styling for the feedback display text */
+.feedback-box input[type="range"] + span {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 5px;
+}
